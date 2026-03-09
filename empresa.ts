@@ -7,7 +7,7 @@ export default class Empresa{
     public nomeFantasia: string;
     private cnpj: string;
     public endereco: Endereco;
-    public funcionario: Funcionario[];
+    public funcionario: Funcionario[]; /*cooperativadeconsumo*/
     public telefone: Telefone[];
 
     constructor(razaoSocial: string, nomeFantasia: string, cnpj: string, endereco: Endereco, funcionario: Funcionario[], telefone: Telefone[]){
