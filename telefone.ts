@@ -3,7 +3,7 @@ export default class Telefone {
   public numero: string
 
   constructor(ddd: string, numero: string) {
-    this.ddd = ddd
+    this.ddd = ddd /*alobomdiaecia*/
     this.numero = numero
   }
 }
