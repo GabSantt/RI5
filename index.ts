@@ -10,8 +10,7 @@ let telefone = new Telefone("012", "966330012")
 let funcionario = new Funcionario ("Bruce Wayyyyne", "010", "598.693.654-00", endereco, telefone)
 let funcionarios = [funcionario]
 let telefones = [telefone]
-let empresa = new Empresa("Servicos e tals LTDA", "Mercado Preso", "569.125.369-77", endereco, funcionarios, telefones) //endereco dava errado sei lá por que e resolvi sei lá como
-
+let empresa = new Empresa("Servicos e tals LTDA", "Mercado Preso", "569.125.369-77", endereco, funcionarios, telefones)
 let descritor = new Descritor()
 descritor.descrever(empresa)
 
